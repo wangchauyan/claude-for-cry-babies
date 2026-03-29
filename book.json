@@ -1,0 +1,11 @@
+{
+  "title": "Claude for Cry Babies：給平民的 AI 實作指南",
+  "description": "A Non-Developer's Guide to AI-Powered Building",
+  "author": "CW",
+  "language": "zh-tw",
+  "gitbook": ">=3.0.0",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  }
+}
