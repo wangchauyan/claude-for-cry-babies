@@ -169,4 +169,54 @@ Well, you're a cry baby who debugs. And that's beautiful.
 
 ---
 
+## A Real Debug Conversation (Step by Step)
+
+Let's walk through an actual scenario so you can see the three-step fix in action.
+
+### The Situation
+
+You asked Claude to build a tip calculator Artifact. It looks great — there's an input field for the bill amount, a slider for tip percentage, and it shows the total. But when you type "50" into the bill field and move the slider to 20%, the total shows "$NaN" instead of "$60.00."
+
+### Step 1: Describe what happened
+
+> **You:** "The tip calculator looks great, but when I enter a bill amount and adjust the tip slider, the total shows 'NaN' instead of the actual number. For example, I typed 50 for the bill and set tip to 20%, and it should show $60 but instead shows $NaN."
+
+### Step 2: Claude responds
+
+> **Claude:** I see the issue — I was treating the input value as a string instead of converting it to a number before doing the math. When JavaScript tries to multiply a string by a number, it produces NaN (Not a Number). Let me fix that.
+
+The Artifact updates. You test it again — type 50, set 20%, and it now correctly shows $60.00.
+
+### Step 3: Verify everything works
+
+> **You:** "The basic calculation works now. But can you test edge cases too? What happens if I leave the bill empty, or type letters instead of numbers?"
+
+> **Claude:** Good catch — I've added input validation. Now if the field is empty, it shows $0.00 instead of NaN. And it only accepts numeric input, so typing letters won't break it.
+
+### What just happened in plain English
+
+You didn't need to understand what "NaN" means. You didn't need to know JavaScript. You just:
+
+1. **Described the problem** in your own words ("it shows NaN instead of $60")
+2. **Showed the expected behavior** ("it should show $60")
+3. **Asked Claude to think about edge cases** ("what if I type letters?")
+
+That's it. That's debugging. You're basically a QA engineer now. (Don't put that on your LinkedIn just yet, but still.)
+
+### The Debug Phrases That Always Work
+
+Keep these in your back pocket:
+
+| When this happens... | Say this to Claude |
+|---|---|
+| Something shows wrong data | "When I do [action], it shows [wrong thing]. It should show [right thing]." |
+| A button does nothing | "The [button name] button doesn't respond when I click it." |
+| The layout looks broken | "The [element] is overlapping with [other element]. Can you fix the spacing?" |
+| It worked before but broke after a change | "After you added [feature], the [other feature] stopped working. Can you fix [other feature] without removing [new feature]?" |
+| You have no idea what went wrong | "Something is wrong but I'm not sure what. Can you review the code and check for common issues?" |
+
+That last one is your nuclear option. It works surprisingly often.
+
+---
+
 *Now that you have the universal fix, let's walk through three specific real-world errors step by step. Bring your copy-paste fingers.*

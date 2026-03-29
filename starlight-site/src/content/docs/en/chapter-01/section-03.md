@@ -62,7 +62,7 @@ Claude never sighs when you ask a "stupid question." It never rolls its eyes. It
 - "Explain blockchain like I'm 10"
 - "I don't understand this error message, what does it mean?"
 - "Walk me through how to read a balance sheet"
-- "What's the difference between a LLC and an S-Corp?"
+- "What's the difference between an LLC and an S-Corp?"
 
 And if the explanation doesn't click? Just say "I still don't get it, try a different analogy." Claude will try again. And again. Forever. Without judgment.
 
@@ -147,6 +147,26 @@ You're the architect. Claude is the (incredibly fast) construction crew. The arc
 
 ---
 
+## What's Free vs. What's Pro?
+
+Claude's Free plan is surprisingly generous. Here's what you get on each:
+
+| Feature | Free Plan | Pro Plan |
+|---------|-----------|----------|
+| Web Search | Yes | Yes |
+| Code Execution | Yes | Yes |
+| Memory | Yes | Yes |
+| Projects | Yes | Yes |
+| Connectors | Yes | Yes |
+| Artifacts | Yes | Yes |
+| File uploads & analysis | Yes | Yes |
+| Research (deep multi-step research) | No | Yes |
+| Opus model access (most powerful) | No | Yes |
+| Claude Code (developer CLI) | No | Yes |
+| Usage limits | Lower daily limits | Much higher limits |
+
+**Bottom line:** You can do almost everything in this book on the Free plan. The main difference is how *much* you can do per day. Pro users get higher message limits and access to the most powerful model (Opus) and advanced features like Research. If you're just getting started, Free is plenty.
+
 ## Quick Reference Card
 
 Save this for later:
@@ -157,10 +177,11 @@ Save this for later:
 | Analyze my spreadsheet? | Yes -- upload it and ask questions. |
 | Build me a website? | Yes -- a simple one, via Artifacts. |
 | Send a text to my mom? | No. Copy-paste the message yourself. |
-| Remember my preferences? | Within a conversation: yes. Across conversations: use Projects. |
+| Remember my preferences? | Within a conversation: yes. Across conversations: use Projects. Memory helps across conversations too. |
 | Replace my accountant? | No. But it can help you prepare for the meeting. |
 | Work offline? | No. It needs internet. |
 | Understand images? | Yes. Upload screenshots, photos, diagrams. |
+| Search the web? | Yes -- on all plans, including Free. |
 | Make me coffee? | No. But it can find a recipe for a great latte. |
 
 ---

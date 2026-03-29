@@ -14,7 +14,7 @@ Artifacts is incredible, but it's not infinite. Before you go trying to build th
 | Limitation | What This Means | Example |
 |-----------|----------------|---------|
 | **No external API access** | Artifacts can't fetch live data from the internet | Can't pull real-time stock prices, weather, or social media feeds |
-| **No permanent storage** | Nothing you create is saved automatically; data resets when the page refreshes | That to-do list you built? Items disappear on refresh |
+| **Limited storage** | Artifacts can use a built-in storage API to persist small amounts of data across sessions. However, this is basic key-value storage — not a database. For most practical purposes, treat Artifacts as temporary: if your tool needs to remember complex data reliably, you'll want to export it (copy to clipboard, download as a file) rather than relying on built-in storage. | That to-do list you built? Simple items might persist, but don't count on it for anything important |
 | **No backend / database** | There's no server running behind the scenes | Can't save user accounts, store form submissions, or process payments |
 | **No cross-conversation persistence** | Each conversation starts fresh | Your mood selector from Tuesday doesn't exist in Wednesday's chat |
 | **Complexity ceiling** | Very large or complex apps can break, lag, or render incorrectly | A full-featured project management tool probably won't work reliably |

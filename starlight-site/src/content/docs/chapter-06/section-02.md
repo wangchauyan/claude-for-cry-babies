@@ -5,6 +5,10 @@ title: "6.2 Projects 101：你的 AI 專案空間"
 
 ## 什麼是 Projects？
 
+:::tip[免費版用戶的好消息]
+Projects 在免費版也能用！你可以建立 Projects、新增 Custom Instructions、上傳參考檔案。主要限制是免費版的總訊息數較少，所以比較複雜的 Project 工作可能會更快碰到每日限制。如果你打算每天認真使用 Projects 來處理工作，Pro 版的體驗會更順暢——但免費版已經足夠讓你體驗完整功能了。
+:::
+
 Projects 是 Claude 的「專案空間」功能。你可以：
 - 建立多個 Project（比如「工作」「Side Project」「學英文」）
 - 在每個 Project 裡上傳參考文件

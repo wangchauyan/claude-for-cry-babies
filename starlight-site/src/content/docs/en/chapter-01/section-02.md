@@ -7,6 +7,8 @@ title: "1.2 Why Claude?"
 
 ---
 
+> **A note on version numbers:** Claude's models update every few months. This book was written when the latest models were Opus 4.6, Sonnet 4.6, and Haiku 4.5. By the time you read this, there may be newer versions — but the techniques in this book work the same regardless. Think of model versions like iPhone numbers: the new one is faster, but you use it the same way.
+
 ## The Honest Landscape
 
 Let's address the elephant in the room: there are a *lot* of AI chatbots out there. ChatGPT, Gemini, Copilot, Claude, and a dozen others launching every month. Why are we building this whole book around Claude?

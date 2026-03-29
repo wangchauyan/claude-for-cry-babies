@@ -30,6 +30,7 @@ No more re-explaining yourself. No more "as I mentioned in our previous conversa
 | [6.3 The Power of Custom Instructions](section-03.md) | Three full template examples for different roles | Make Claude your personalized assistant |
 | [6.4 Advanced: Managing Different Areas of Life](section-04.md) | Organizing multiple Projects for work, side hustle, learning | Separate contexts, prevent cross-contamination |
 | [6.5 Web Search: Real-Time Information](section-05.md) | Getting current data when Claude's training falls short | When you need today's news, not last year's knowledge |
+| [6.6 Memory: Claude Remembers You](section-06.md) | Automatic cross-conversation learning | Claude learns your preferences over time |
 
 ### The Running Project: Weekly Report Generator v0.6
 

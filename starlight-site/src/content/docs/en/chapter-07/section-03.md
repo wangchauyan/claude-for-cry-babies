@@ -115,4 +115,28 @@ Memorize that. It's your new superpower.
 
 ---
 
+## The Honest Moment: What's Actually Happening Under the Hood
+
+Time for some real talk. This tool is impressive, but let's be clear about what it is and isn't:
+
+**What it IS:** A beautifully designed, interactive study tool where Claude pre-generated a set of interview questions at build time and baked them into the code. When you type "Marketing Manager" and click Generate, it's matching against questions that were written into the component when Claude first created it.
+
+**What it ISN'T:** A tool that calls Claude's AI brain in real-time every time you click a button. The questions aren't being freshly generated each time — they were written once, when you asked Claude to build the Artifact.
+
+### Why does this matter?
+
+Because if you type "Underwater Basket Weaving Coordinator," you'll probably get generic questions that don't quite fit. The tool can only be as good as the questions Claude thought to include when building it.
+
+### Can you make it truly dynamic?
+
+Yes, but it requires an intermediate technique called **"Claude in Claude"** (or "Claudeception"). This lets your Artifact actually call Claude's API in real-time to generate fresh questions for any role. Here's the prompt to upgrade:
+
+> "Update the Interview Prep Assistant to use the Anthropic API to generate questions in real-time. When the user enters a job position and clicks 'Generate Questions', it should call the Claude API to create fresh, tailored questions for that specific role. Use the model 'claude-sonnet-4-6' and set max_tokens to 1000."
+
+This is an advanced technique — we mention it here so you know it exists, but the static version is perfectly useful for common job roles. Most readers will find the original version more than enough for actual interview prep.
+
+**The lesson:** Always understand what your tool is actually doing. A static tool that works reliably is often better than a dynamic one that's fragile. Ship the simple version first, upgrade later if needed.
+
+---
+
 *Feeling good? Let's build something a little more fun next. Your team is going to love this one.*

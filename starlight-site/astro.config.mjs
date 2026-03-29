@@ -100,6 +100,7 @@ export default defineConfig({
 								{ slug: 'chapter-06/section-03' },
 								{ slug: 'chapter-06/section-04' },
 								{ slug: 'chapter-06/section-05' },
+								{ slug: 'chapter-06/section-06' },
 							],
 						},
 						{

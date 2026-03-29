@@ -7,6 +7,8 @@ title: "6.5 Web Search: Real-Time Information"
 
 ---
 
+> Web Search is available on **all plans, including Free.** When you ask Claude a question about current events, recent news, or anything that might have changed since its training data, it can search the web and cite sources. You don't need to enable anything — Claude decides when a search would help and does it automatically. You can also explicitly ask: "Search the web for the latest [topic]."
+
 ## The Knowledge Cutoff Problem
 
 Claude was trained on a massive dataset of text, but that training has a cutoff date. Think of it like an encyclopedia that was printed on a specific day. Everything up to that date? Claude is brilliant. The stock market close yesterday? The latest product announcement from Apple? Who won the game last night? Claude genuinely doesn't know -- unless you let it search the web.

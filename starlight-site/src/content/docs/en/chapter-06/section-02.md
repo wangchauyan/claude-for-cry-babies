@@ -17,6 +17,8 @@ A Project is a **named workspace** in Claude that bundles three things together:
 
 Think of it as giving Claude a briefcase. Every time you start a new conversation within that Project, Claude opens the briefcase first, reads everything inside, and *then* says hello. No amnesia. No re-explaining. Claude already knows the deal.
 
+> **Good news for Free users:** Projects are available on the Free plan too! You can create Projects, add Custom Instructions, and upload reference files. The main limitation is that Free users have fewer total messages, so complex Project work may hit limits faster. If you're serious about using Projects daily, Pro is where the experience becomes smooth.
+
 **Without a Project:** "Hi! I'm Claude. What do you do? Where do you work? What's your writing style? Tell me everything from scratch."
 
 **With a Project:** "Hi! I see you're the marketing lead at Acme Corp. Your reports use the Q-metrics framework. You prefer bullet points over paragraphs and you hate the word 'synergy.' What are we working on today?"
@@ -183,7 +185,7 @@ A: Yes. Every new conversation in that Project starts with access to all uploade
 A: More files use more of Claude's "desk space" (context window). Keep it focused: 3-6 essential documents is the sweet spot.
 
 **Q: Is this a paid feature?**
-A: Projects is available on Claude Pro and Team plans. Check Appendix B for the latest plan comparison.
+A: Projects is available on all plans, including Free! Free users can create Projects, add Custom Instructions, and upload files. Pro and Team plans offer higher usage limits for more intensive work.
 
 ---
 

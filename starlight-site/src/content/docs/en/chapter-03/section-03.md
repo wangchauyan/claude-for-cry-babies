@@ -42,6 +42,57 @@ Create an interactive Mood Selector as an Artifact:
 
 **What you should see:** A clean page with four big emoji buttons. Click one, and the whole vibe of the page changes -- the background color shifts smoothly, and a personalized message appears below. You just built an interactive app. Cry happy tears.
 
+---
+
+## What You'll See (The Moment of Magic)
+
+After you hit Enter, here's what happens:
+
+1. Claude starts responding in the left panel with an explanation
+2. On the right side of your screen, **an interactive panel opens automatically**
+3. Inside that panel: three colorful buttons with mood options
+
+**Try clicking one.** The background color changes. A comfort message appears. You just interacted with something you built — by typing a sentence.
+
+If your screen is too narrow (e.g., on a phone), you might need to tap the "View Artifact" button to see the interactive panel. On desktop, it appears side-by-side automatically.
+
+### The Iteration Conversation (Real Flow)
+
+Here's how a typical 3-round iteration looks. You don't need to copy these exactly — the point is to see the *pattern*:
+
+**Round 1 — You're not quite happy with the colors:**
+
+> **You:** "The colors are too bright and aggressive. Can you use softer pastel colors? Like baby blue for the first option, lavender for the second, and peach for the third."
+
+The Artifact updates in real-time. The buttons are now soft pastels. Same functionality, gentler vibe.
+
+**Round 2 — You want more personality:**
+
+> **You:** "Love the colors! But the comfort messages are too generic. Make them funnier — like something a sarcastic but caring best friend would say."
+
+The Artifact updates. Now when you click a mood, instead of generic comfort, you might see something like "Tears are just your eyes doing cardio. You're basically working out right now."
+
+**Round 3 — One more feature:**
+
+> **You:** "Perfect. Now add a fourth button: 'I Don't Want to Do Anything.' When clicked, the entire screen should slowly fade to black, then after 3 seconds show the text 'Same. But here you are, reading this. That counts for something.' in white."
+
+The Artifact updates. You now have a mini emotional support app with personality, animation, and four interactive states.
+
+**Total time:** About 5 minutes. **Lines of code you wrote:** Zero.
+
+### Why This Pattern Matters
+
+| Round | What You Said | Skill You Used |
+|---|---|---|
+| Build prompt | Described the whole thing | Clear initial specification |
+| Round 1 | Changed the colors | Describing visual preferences |
+| Round 2 | Changed the text tone | Describing personality/voice |
+| Round 3 | Added a new feature with animation | Describing behavior and timing |
+
+This is the **Build → Review → Refine** loop in action. You'll use it for everything in this book. Get comfortable with it — it's your new superpower.
+
+---
+
 ### Why This Prompt Works
 
 Let's break down *why* this prompt is effective:

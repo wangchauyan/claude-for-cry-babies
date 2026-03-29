@@ -12,8 +12,12 @@ title: "第 6 章：Projects — 讓 Claude 擁有長期記憶"
 這一章要解決這個問題。
 
 你將學到：
-- 為什麼 Claude 會「失憶」
-- Projects 功能的完整使用教學
-- Custom Instructions 的設定技巧
-- 如何用不同 Project 管理不同面向的生活
-- 搭配 Web Search 取得即時資訊
+
+| 章節 | 內容 | 重點 |
+|------|------|------|
+| [6.1 為什麼每次對話 Claude 都像失憶？](section-01.md) | Claude 的記憶機制（桌子比喻） | 先搞懂問題，再來解決 |
+| [6.2 Projects 101：你的 AI 工作區](section-02.md) | 一步步建立你的第一個 Project | 從零到「Claude 認識我了」 |
+| [6.3 Custom Instructions 的威力](section-03.md) | 三個完整的範例模板 | 打造個人化的 AI 助手 |
+| [6.4 進階：管理生活的不同面向](section-04.md) | 用多個 Project 分開管理工作、副業、學習 | 分離情境，避免混淆 |
+| [6.5 搭配 Web Search：讓 Claude 不再活在過去](section-05.md) | 取得即時資訊 | 需要今天的新聞，不是去年的知識 |
+| [6.6 記憶功能：Claude 會記住你](section-06.md) | 跨對話自動學習 | Claude 隨時間學習你的偏好 |
