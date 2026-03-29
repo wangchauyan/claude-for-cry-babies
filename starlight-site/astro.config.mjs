@@ -3,6 +3,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
+	site: 'https://wangchauyan.github.io',
+	base: '/claude-for-cry-babies',
 	integrations: [
 		starlight({
 			title: 'Claude for Cry Babies',
