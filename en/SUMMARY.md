@@ -58,7 +58,8 @@
   * [8.2 AI Won't Replace You, But...](chapter-08/section-02.md)
   * [8.3 Three Habits for Continuous Growth](chapter-08/section-03.md)
   * [8.4 From Cry Baby to Creator](chapter-08/section-04.md)
-  * [8.5 Graduation Challenge](chapter-08/section-05.md)
+  * [8.5 The Next Level: When You Start Using Claude Code](chapter-08/section-06.md)
+  * [8.6 Graduation Challenge](chapter-08/section-05.md)
 
 ## Appendix
 

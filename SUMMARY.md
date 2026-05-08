@@ -58,7 +58,8 @@
   * [8.2 會用 AI 的人會取代不會用的人](chapter-08/section-02.md)
   * [8.3 持續進步的三個習慣](chapter-08/section-03.md)
   * [8.4 從 Cry Baby 到 Creator](chapter-08/section-04.md)
-  * [8.5 畢業挑戰](chapter-08/section-05.md)
+  * [8.5 進階之路：當你開始用 Claude Code](chapter-08/section-06.md)
+  * [8.6 畢業挑戰](chapter-08/section-05.md)
 
 ## 附錄
 
